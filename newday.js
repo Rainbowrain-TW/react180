@@ -3,8 +3,8 @@ const path = require('path');
 const { exec } = require('child_process');
 
 const day = process.argv[2];
-const dayPath = path.join(__dirname, `components/day${day}`);
-const templatePath = path.join(__dirname, 'components/template');
+const dayPath = path.join(__dirname, `src/components/day${day}`);
+const templatePath = path.join(__dirname, 'src/components/template');
 
 // Check if day number is provided
 if (!day) {
