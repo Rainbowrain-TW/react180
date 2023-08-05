@@ -1,12 +1,14 @@
 import { useState } from 'react';
 import styles from './day.module.css';
 
+import Door from './components/door';
+
 const Day = () => {
     const [count, setCount] = useState(0);
 
     return (
         <>
-            <h1>Day {count}</h1>
+
         </>
     );
 }
