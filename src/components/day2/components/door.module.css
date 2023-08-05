@@ -1,0 +1,19 @@
+.door {
+    position: relative;
+    perspective: 1000px;
+}
+
+.door .fg {
+    z-index: 2;
+    transition: transform 0.5s;
+    transform-origin: right;
+    position: absolute;
+}
+
+.open {
+    transform: rotateY(-60deg);
+}
+
+.door .bg {
+    z-index: 1;
+}

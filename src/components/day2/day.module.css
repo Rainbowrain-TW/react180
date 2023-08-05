@@ -1,0 +1,33 @@
+.site {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: silver
+}
+
+header {
+    text-align: center;
+}
+
+header h1 a {
+    color: silver;
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+}
+
+main p {
+    font-size: 24px;
+}
+
+.doors {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    justify-self: center;
+    align-self: center;
+}

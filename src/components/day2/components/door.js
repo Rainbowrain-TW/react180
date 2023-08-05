@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import styles from './door.module.css';
 
-const Day = (props) => {
-    const [count, setCount] = useState(0);
-
+const Day = ({ open, data, onClick }) => {
     return (
-        <div>
-            <image src="https://jenniferdewalt.com/images/orange_door.png" alt="Monty Hall" />
+        <div className={styles.door} onClick={onClick}>
+            <img className={styles.fg + ' ' + (open ? styles.open : '')} src={data.fg} />
+            <img className={styles.bg} src={data.bg} />
         </div>
     );
 }
