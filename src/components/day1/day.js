@@ -5,6 +5,11 @@ import { list } from './dailySiteList';
 const Day = () => {
     const [count, setCount] = useState(0);
 
+    const lastDay = Object.keys(list).length;
+    const lastDayTitle = list[lastDay].title;
+    console.log('lastDay :>> ', lastDay);
+    console.log('lastDayTitle :>> ', lastDayTitle);
+
     return (
         <div className={styles.site}>
             <header>
@@ -16,7 +21,7 @@ const Day = () => {
                     </ul>
                 </nav>
             </header>
-            <div class={styles.content}>
+            <div className={styles.content}>
                 <h1>嗨！</h1>
                 <p>我是 RainbowRAIN，這個網站是參考 Jennifer Dewalt 的</p>
                 <h2><a href="https://jenniferdewalt.com/index.html" target='_blank'>180 Websites in 180 days.</a></h2>
@@ -28,7 +33,9 @@ const Day = () => {
             <hr />
             <section>
                 <div>最新的網站</div>
-                <div><a href="./day2">Monty Hall problem（三門遊戲）</a></div>
+                <div>
+                    <a href={`./day${lastDay}`}>{lastDayTitle}</a>
+                </div>
             </section>
             <hr />
             <section className={styles.list}>
@@ -37,7 +44,7 @@ const Day = () => {
                         Object.entries(list).map(([key, value]) => {
                             return (
                                 <li key={key}>
-                                    {`Day ${('' + key).padStart(2, '0')}  -  `}<a href={`./day${key}`}>{value.title}</a>
+                                    {`Day ${('' + key).padStart(2, '0')}  -  `}<a href={`/react180/day${key}`}>{value.title}</a>
                                 </li>
                             );
                         })

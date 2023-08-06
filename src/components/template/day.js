@@ -6,6 +6,7 @@ const Day = () => {
 
     return (
         <div className={styles.site}>
+            <a href="/react180/" className={styles.homeLink}>⛪</a>
             <h1>Day {count}</h1>
         </div>
     );
