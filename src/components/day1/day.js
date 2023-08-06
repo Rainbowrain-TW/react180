@@ -23,12 +23,12 @@ const Day = () => {
                 <p>的作品，用來練習 React 框架</p>
                 <p>有興趣的話歡迎常來看看這個網站</p>
                 <h2> 180 <span className={styles.spec}>React</span> websites in 180+ days.</h2>
-                <p className={styles.comment}>(剛下班吃完飯就已經快 12 點了，覺得應該很完成每天一個網頁，所以偷偷放了個+ ...)</p>
+                <p className={styles.comment}>(剛下班吃完飯就已經快 12 點了，覺得應該很難每天完成一個網頁，所以偷偷放了個+ ...)</p>
             </div>
             <hr />
             <section>
                 <div>最新的網站</div>
-                <div><a href="./day1">就是這個索引頁啦</a></div>
+                <div><a href="./day2">Monty Hall problem（三門遊戲）</a></div>
             </section>
             <hr />
             <section className={styles.list}>

@@ -22,6 +22,10 @@ main p {
     font-size: 24px;
 }
 
+p span.highlight {
+    color: orange;
+}
+
 .doors {
     width: 60%;
     display: flex;

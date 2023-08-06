@@ -9,11 +9,12 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <Routes>
-      <Route path="/" element={React.createElement(days[1])} />
+      <Route path="react180/" element={React.createElement(days[1])} />
       {
         Object.entries(days).map(([key, value]) => {
+          const Component = value;
           return (
-            <Route key={key} path={`/day${key}`} element={React.createElement(value)} />
+            <Route key={key} path={`react180/day${key}`} element={<Component />} />
           );
         })
       }

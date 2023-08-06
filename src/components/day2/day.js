@@ -85,7 +85,7 @@ const Day = () => {
             </header>
             <main>
                 {phaseSelect && <p>這裡有三道門，其中一扇門後的是 Hololive 的成員，你能猜到她在哪一扇門後面嗎？</p>}
-                {phaseFinal && <p>在你真的決定答案前，我讓你看看其中一道不是 Hololive 成員的門打開的樣子。你可以在剩下的兩道門再做一次選擇，祝你好運。</p>}
+                {phaseFinal && <p>在你真的決定答案前，我讓你看看其中一道不是 Hololive 成員的門打開的樣子。<span className={styles.highlight}>你可以在剩下的兩道門再做一次選擇</span>，祝你好運。</p>}
                 {phaseResult && finalAnswer === "blue" && <Tenri />}
                 {phaseResult && finalAnswer === "green" && <Ray />}
                 {phaseResult && finalAnswer === "orange" && <AZKi />}
