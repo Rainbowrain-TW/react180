@@ -1,0 +1,108 @@
+.site {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: silver
+}
+
+.homeLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #444;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 2px;
+    left: 2px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    color: bisque;
+    text-shadow: 2px 2px 2px #96d68a, -2px -2px 0px darkgreen;
+}
+
+.canvas {
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paint {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.colorPick {
+    width: 100px;
+    height: 100px;
+}
+
+.colorPick:hover {
+    cursor: pointer;
+}
+
+.grid {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 10px solid #111;
+    width: 100%;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.column {
+    padding: 0px;
+    margin: 0px;
+    border-right: 10px solid #111;
+}
+
+.yellow {
+    background-color: lightgoldenrodyellow;
+}
+
+.red {
+    background-color: tomato;
+}
+
+.blue {
+    background-color: royalblue;
+}
+
+.white {
+    background-color: #ddd;
+}
+
+.black {
+    background-color: #111;
+}

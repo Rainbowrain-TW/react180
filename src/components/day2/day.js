@@ -76,6 +76,7 @@ const Day = () => {
 
     return (
         <div className={styles.site}>
+            <a href="/react180/" className={styles.homeLink}>⛪</a>
             <header>
                 <h1><a href="https://zh.wikipedia.org/zh-tw/%E8%92%99%E6%8F%90%E9%9C%8D%E7%88%BE%E5%95%8F%E9%A1%8C">
                     Monty Hall problem
