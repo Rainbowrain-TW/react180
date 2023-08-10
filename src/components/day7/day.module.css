@@ -1,0 +1,38 @@
+.site {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: silver
+}
+
+.homeLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #444;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 2px;
+    left: 2px;
+}
+
+.canvas {
+    width: 700px;
+    height: 1400px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.tile {
+    min-width: 50px;
+    height: 50px;
+}
+
+.tile:hover {
+    box-shadow: 0 0 10px 10px #fff;
+}

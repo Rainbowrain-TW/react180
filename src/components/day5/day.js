@@ -14,7 +14,7 @@ const Day = () => {
             <Quiz />
             <Answer onClick={() => { console.log("show author"); setShowAuthor(true) }} />
             {showAuthor &&
-                <img src="image/day5/AZKi_inochi.jpg" alt="author" onClick={() => { console.log("click"); setShowAuthor(false) }} />
+                <img className={styles.answerImg} src="image/day5/AZKi_inochi.jpg" alt="author" onClick={() => { console.log("click"); setShowAuthor(false) }} />
             }
         </div>
     );

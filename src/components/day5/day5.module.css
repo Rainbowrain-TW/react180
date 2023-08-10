@@ -82,7 +82,7 @@
     font-family: monospace;
 }
 
-img {
+.answerImg {
     position: fixed;
     top: 50%;
     left: 50%;

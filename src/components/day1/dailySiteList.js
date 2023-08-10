@@ -1,4 +1,12 @@
 export const list = {
+    "7": {
+        "title": "Technicolor Boxes",
+        "url": "https://jenniferdewalt.com/technicolor_boxes.html",
+    },
+    "6": {
+        "title": "Day Tracker",
+        "url": "https://jenniferdewalt.com/day_tracker.html",
+    },
     "5": {
         "title": "Secret Message",
         "url": "https://jenniferdewalt.com/secret_message.html",
