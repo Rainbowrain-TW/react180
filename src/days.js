@@ -7,6 +7,7 @@ import Day6 from './components/day6/day';
 import Day7 from './components/day7/day';
 import Day8 from './components/day8/day';
 import Day9 from './components/day9/day';
+import Day10 from './components/day10/day';
 
 export const days = {
   1: Day1,
@@ -18,4 +19,5 @@ export const days = {
   7: Day7,
   8: Day8,
   9: Day9,
+  10: Day10
 }

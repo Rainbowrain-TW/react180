@@ -1,4 +1,8 @@
 export const list = {
+    "10": {
+        "title": "Sushi Jiggler",
+        "url": "https://jenniferdewalt.com/sushi_jiggler.html",
+    },
     "9": {
         "title": "Bouncing Ball",
         "url": "https://jenniferdewalt.com/bouncing_ball.html",
