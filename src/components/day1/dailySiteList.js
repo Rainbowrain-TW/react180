@@ -1,4 +1,12 @@
 export const list = {
+    "9": {
+        "title": "Bouncing Ball",
+        "url": "https://jenniferdewalt.com/bouncing_ball.html",
+    },
+    "8": {
+        "title": "More Drop Shadow!",
+        "url": "https://jenniferdewalt.com/more_drop_shadow.html",
+    },
     "7": {
         "title": "Technicolor Boxes",
         "url": "https://jenniferdewalt.com/technicolor_boxes.html",
