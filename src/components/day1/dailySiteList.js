@@ -1,4 +1,12 @@
 export const list = {
+    "13": {
+        "title": "Rock Paper Scissors",
+        "url": "https://jenniferdewalt.com/rock_paper_scissors.html",
+    },
+    "12": {
+        "title": "Dice Roller",
+        "url": "https://jenniferdewalt.com/dice_roller.html",
+    },
     "11": {
         "title": "Color Clock",
         "url": "https://jenniferdewalt.com/color_clock.html",

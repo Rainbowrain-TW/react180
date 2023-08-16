@@ -1,0 +1,117 @@
+.site {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: silver
+}
+
+.homeLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #444;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 2px;
+    left: 2px;
+}
+
+.main_Container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.CPU_Container,
+.Player_Container {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CPU_Container h1,
+.Player_Container h1 {
+    color: #fff;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.CPU_Container hr,
+.Player_Container hr {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid greenyellow;
+}
+
+.hand {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hand img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.right img {
+    transform: scaleX(-1);
+}
+
+.shaking .handWrapper {
+    animation: shake 0.5s linear infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(-40px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    75% {
+        transform: translateY(40px);
+    }
+
+    100% {
+        transform: translateY(0deg);
+        ;
+    }
+}
+
+.vs_Container {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 5px;
+}
