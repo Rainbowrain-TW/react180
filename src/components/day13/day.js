@@ -29,7 +29,6 @@ const results = {
 
 
 const Day = () => {
-    const [count, setCount] = useState(0);
     const [phase, setPhase] = useState('');
     const [cpuType, setCpuType] = useState('');
     const [playerType, setPlayerType] = useState('');
