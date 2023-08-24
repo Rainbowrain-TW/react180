@@ -1,4 +1,8 @@
 export const list = {
+    "19": {
+        "title": "How Much of an SF Hipster are You?",
+        "url": "https://jenniferdewalt.com/hipster_quiz.html",
+    },
     "18": {
         "title": "Building Blocks",
         "url": "https://jenniferdewalt.com/building_blocks.html",
