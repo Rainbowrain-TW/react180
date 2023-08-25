@@ -36,7 +36,7 @@ const Day = () => {
             <a href="/react180/" className={styles.homeLink}>⛪</a>
             {
                 fireFlies.map((fireFly, i) => {
-                    return <FireFly key={fireFly.id} {...fireFly} created={fireFly.id == id - 1} />
+                    return <FireFly key={fireFly.id} {...fireFly} />
                 })
             }
         </div>

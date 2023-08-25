@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import styles from './day.module.css';
 
-const FireFly = ({ id, x, y, mainColor, secondaryColor, size, created }) => {
+const FireFly = ({ x, y, mainColor, secondaryColor, size }) => {
     const [isFlashing, setIsFlashing] = useState(false);
 
     useEffect(() => {
