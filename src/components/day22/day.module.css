@@ -6,6 +6,10 @@
     color: silver;
 }
 
+.site h1 {
+    text-align: center;
+}
+
 .homeLink {
     color: #fff;
     text-decoration: none;
@@ -17,4 +21,101 @@
     position: fixed;
     top: 2px;
     left: 2px;
+}
+
+.cheatKey {
+    width: 30px;
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #444;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 2px;
+    left: 37px;
+    text-align: center;
+}
+
+.hintContainer,
+.victoryContainer,
+.failContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.gameContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 250px;
+}
+
+.startArea {
+    width: 50px;
+    background-color: red;
+    border-radius: 50% 0 0 50%;
+}
+
+.endArea {
+    width: 50px;
+    background-color: royalblue;
+    border-radius: 0 50% 50% 0;
+}
+
+.pathArea {
+    background-color: #fff;
+}
+
+.endArea.hideCursor {
+    cursor: none;
+    background-color: transparent;
+}
+
+.hideCursor {
+    cursor: none;
+}
+
+.hidePath {
+    background-color: transparent;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nextLevelButton,
+.retryButton,
+.restartButton {
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 5px;
+    background-color: royalblue;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    margin-right: 20px;
 }
