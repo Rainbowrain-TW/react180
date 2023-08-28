@@ -1,0 +1,154 @@
+.site {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: silver;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #9db5f4;
+}
+
+.homeLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #444;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 2px;
+    left: 2px;
+}
+
+.colon {
+    font-size: 140px;
+    line-height: 140px;
+    font-family: serif;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+.stopwatch {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+
+.digital {
+    width: 70px;
+    height: 134px;
+    position: relative;
+    margin: 0 10px;
+}
+
+.horizon {
+    position: absolute;
+    width: 38px;
+    height: 14px;
+    left: 16px;
+    background-color: #9db5f4;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+.horizon.top {
+    top: 3px;
+}
+
+.horizon.middle {
+    top: 60px;
+}
+
+.horizon.bottom {
+    bottom: 3px;
+}
+
+.triRight {
+    position: absolute;
+    right: -7px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 7px solid #9db5f4;
+    border-bottom: 7px solid transparent;
+}
+
+.triLeft {
+    position: absolute;
+    left: -7px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-right: 7px solid #9db5f4;
+    border-bottom: 7px solid transparent;
+}
+
+.vertical {
+    position: absolute;
+    height: 42px;
+    width: 14px;
+    background-color: #9db5f4;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+.vertical.top {
+    top: 18px;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.vertical.bottom {
+    bottom: 18px;
+}
+
+.triUp {
+    position: absolute;
+    top: -7px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #9db5f4;
+}
+
+.triDown {
+    position: absolute;
+    bottom: -7px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #9db5f4;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    margin: 0 10px;
+    font-size: 32px;
+    border-radius: 10px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

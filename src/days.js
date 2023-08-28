@@ -20,6 +20,7 @@ import Day19 from './components/day19/day';
 import Day20 from './components/day20/day';
 import Day21 from './components/day21/day';
 import Day22 from './components/day22/day';
+import Day23 from './components/day23/day';
 
 export const days = {
   1: Day1,
@@ -44,4 +45,5 @@ export const days = {
   20: Day20,
   21: Day21,
   22: Day22,
+  23: Day23,
 }
