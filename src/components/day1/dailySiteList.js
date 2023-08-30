@@ -1,4 +1,8 @@
 export const list = {
+    "24": {
+        "title": "What is Your Email's Impact?",
+        "url": "https://jenniferdewalt.com/email_impact.html",
+    },
     "23": {
         "title": "Stopwatch",
         "url": "https://jenniferdewalt.com/stopwatch.html",
