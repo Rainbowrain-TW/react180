@@ -1,4 +1,8 @@
 export const list = {
+    "25": {
+        "title": "SCRAMBLED!",
+        "url": "https://jenniferdewalt.com/scrambled.html",
+    },
     "24": {
         "title": "What is Your Email's Impact?",
         "url": "https://jenniferdewalt.com/email_impact.html",
