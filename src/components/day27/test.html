@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #222222;
+        }
+
+        .container {
+            background-color: #224422;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            z-index: 0;
+        }
+
+        .cloud {
+            position: relative;
+            margin-top: 120px;
+            width: 350px;
+            height: 120px;
+            border-radius: 100px;
+            background-image: linear-gradient(to bottom, #A6ADA7, #737A74);
+        }
+
+        .cloud:after,
+        .cloud:before {
+            content: '';
+            position: absolute;
+            background-color: #A6ADA7;
+        }
+
+        .cloud:after {
+            content: 'after';
+            color: white;
+            width: 100px;
+            height: 100px;
+            top: -50px;
+            left: 50px;
+            border-radius: 100px;
+            background-color: lightgreen;
+        }
+
+        .cloud:before {
+            content: 'before';
+            color: white;
+            width: 180px;
+            height: 180px;
+            top: -90px;
+            right: 50px;
+            border-radius: 200px;
+            background-color: lightgoldenrodyellow;
+            z-index: 0;
+        }
+
+        .cloud_child1 {
+            position: absolute;
+            top: 8%;
+            left: 26%;
+            width: 100px;
+            height: 145px;
+            background-color: pink;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="cloud">
+            <div class="cloud_child1"></div>
+        </div>
+    </div>
+</body>
+
+</html>

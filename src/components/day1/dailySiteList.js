@@ -1,4 +1,12 @@
 export const list = {
+    "28": {
+        "title": "The Click Challenge",
+        "url": "https://jenniferdewalt.com/click_challenge.html",
+    },
+    "27": {
+        "title": "Rain Maker",
+        "url": "https://jenniferdewalt.com/rain_maker.html",
+    },
     "26": {
         "title": "Simon",
         "url": "https://jenniferdewalt.com/simon.html",

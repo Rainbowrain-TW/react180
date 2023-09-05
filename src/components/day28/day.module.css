@@ -1,0 +1,177 @@
+.site {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: silver;
+}
+
+.homeLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #444;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 2px;
+    left: 2px;
+}
+
+.titleContainer,
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subTitle {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.description {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 120px;
+    margin-bottom: 60px;
+
+}
+
+.startButton {
+    width: 200px;
+    height: 60px;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #444;
+    border: 1px solid #fff;
+    color: bisque;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.gameContainer {
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.clickCount {
+    font-size: 128px;
+    font-weight: 700;
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    user-select: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.timer {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    /* box-sizing: border-box;
+    border-radius: 50%;
+    border: 50px solid lightcyan;
+    background-color: darkcyan;
+    position: absolute; */
+}
+
+.halfCircle {
+    width: 250px;
+    height: 500px;
+    box-sizing: border-box;
+    border: 50px solid lightcyan;
+    background-color: darkcyan;
+    border-right: none;
+    position: absolute;
+    border-radius: 250px 0 0 250px;
+    transform-origin: 100% 50%;
+}
+
+.animation {
+    animation: rotate 30s linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.halfCircleRight {
+    box-sizing: border-box;
+    border: 50px solid lightcyan;
+    background-color: darkcyan;
+    border-left: none;
+    width: 250px;
+    height: 500px;
+    left: 50%;
+    position: absolute;
+    border-radius: 0 250px 250px 0;
+    opacity: 0;
+}
+
+.halfCircleRightAnimation {
+    -webkit-animation: opacity 30s steps(1, end);
+    animation: opacity 30s steps(1, end) reverse;
+}
+
+.mask {
+    width: 55%;
+    height: 110%;
+    position: absolute;
+    background: #222;
+    top: -20px;
+    left: -25px;
+    z-index: 2;
+    opacity: 1;
+}
+
+.maskAnimation {
+    -webkit-animation: opacity 30s steps(1, end);
+    animation: opacity 30s steps(1, end);
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50%,
+    100% {
+        opacity: 0;
+    }
+}
+
+.restartButton {
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.restartButton:hover {
+    color: bisque;
+}

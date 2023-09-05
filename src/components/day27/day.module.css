@@ -1,0 +1,154 @@
+.site {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: silver;
+}
+
+.homeLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #444;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 2px;
+    left: 2px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.typeButton {
+    width: 90%;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: #444;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 32px;
+}
+
+.cloudContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    z-index: 0;
+}
+
+.cloud {
+    position: relative;
+    margin-top: 120px;
+    width: 350px;
+    height: 120px;
+    border-radius: 100px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#A6ADA7), to(#737A74));
+    background-image: -webkit-linear-gradient(top, #A6ADA7, #737A74);
+    background-image: -moz-linear-gradient(top, #A6ADA7, #737A74);
+    background-image: -o-linear-gradient(top, #A6ADA7, #737A74);
+    background-image: linear-gradient(to bottom, #A6ADA7, #737A74);
+}
+
+.cloud:after,
+.cloud:before {
+    content: '';
+    position: absolute;
+    background-color: #A6ADA7;
+    z-index: -1;
+}
+
+.cloud:after {
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: 50px;
+    border-radius: 100px;
+}
+
+.cloud:before {
+    width: 180px;
+    height: 180px;
+    top: -90px;
+    right: 50px;
+    border-radius: 200px;
+}
+
+.rainContainer {
+    position: relative;
+    width: 350px;
+
+}
+
+.rain {
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    border-top-right-radius: 0;
+    background-color: #96d5ee;
+    transform: rotate(-45deg);
+
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+}
+
+.heart {
+    width: 10px;
+    height: 9px;
+    display: inline-block;
+    position: absolute;
+}
+
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 5px;
+    top: 0;
+    width: 5px;
+    height: 8px;
+    background: #fa3c88;
+    border-radius: 5px 5px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+.bacon {
+    width: 15px;
+    height: 46px;
+    display: inline-block;
+    position: absolute;
+    background-image: url('/public/image/day27/bacon_0.png');
+}
