@@ -1,4 +1,8 @@
 export const list = {
+    "29": {
+        "title": "Magic 8 Ball",
+        "url": "https://jenniferdewalt.com/magic_8.html",
+    },
     "28": {
         "title": "The Click Challenge",
         "url": "https://jenniferdewalt.com/click_challenge.html",
