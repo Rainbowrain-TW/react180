@@ -1,0 +1,78 @@
+.site {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: silver;
+    position: relative;
+}
+
+.homeLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #444;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 2px;
+    left: 2px;
+}
+
+.message {
+    font-size: 36px;
+    color: azure;
+    text-align: center;
+    margin-top: 100px;
+    min-height: 48px;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+
+.demoThrobberContainer {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+.throbber {
+    position: absolute;
+}
+
+.demoThrobberContainer .throbber {
+    position: relative;
+    display: inline-block;
+}
+
+.spin {
+    -webkit-animation: spinPan .4s infinite linear;
+    animation: spinPan .4s infinite linear;
+}
+
+@-webkit-keyframes spinPan {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spinPan {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
