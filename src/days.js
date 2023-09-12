@@ -29,6 +29,7 @@ import Day28 from './components/day28/day';
 import Day29 from './components/day29/day';
 import Day30 from './components/day30/day';
 import Day31 from './components/day31/day';
+import Day32 from './components/day32/day';
 
 export const days = {
   1: Day1,
@@ -62,4 +63,5 @@ export const days = {
   29: Day29,
   30: Day30,
   31: Day31,
+  32: Day32,
 }

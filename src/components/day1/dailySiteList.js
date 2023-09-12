@@ -1,4 +1,8 @@
 export const list = {
+    "32": {
+        "title": "Particle Waves",
+        "url": "https://jenniferdewalt.com/particle_waves.html",
+    },
     "31": {
         "title": "Endless Throbbers",
         "url": "https://jenniferdewalt.com/endless_throbbers.html",
