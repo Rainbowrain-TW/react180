@@ -1,4 +1,9 @@
 export const list = {
+    //Day 33 - Random Word Generator - origin website: https://jenniferdewalt.com/random_word.html
+    "33": {
+        "title": "Random Word Generator",
+        "url": "https://jenniferdewalt.com/random_word.html",
+    },
     "32": {
         "title": "Particle Waves",
         "url": "https://jenniferdewalt.com/particle_waves.html",
