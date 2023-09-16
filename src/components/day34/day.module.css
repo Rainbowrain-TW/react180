@@ -1,0 +1,105 @@
+.site {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: silver;
+}
+
+.homeLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #444;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    top: 2px;
+    left: 2px;
+}
+
+.mainContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.coinContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: last baseline;
+    margin: 0 20px;
+    user-select: none;
+    margin: 330px 150px 0 0;
+}
+
+.draggableCoin {
+    position: absolute;
+    z-index: 9999;
+    top: -1000px;
+
+}
+
+.nekoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    position: relative;
+    user-select: none;
+}
+
+.dragging {
+    cursor: pointer !important;
+    /* opacity: 0.1 !important; */
+}
+
+.nekoBody {
+    z-index: 10;
+}
+
+.nekoHandContainer {
+    perspective: 900px;
+}
+
+.nekoHand {
+    position: absolute;
+    top: -138px;
+    left: -38px;
+    z-index: 9;
+    transform-origin: left 100%;
+    animation: wave 3s infinite linear;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    25% {
+        transform: rotateX(-30deg);
+    }
+
+    50% {
+        transform: rotateX(0deg);
+    }
+
+    75% {
+        transform: rotateX(20deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+
+.button {
+    height: 50px;
+}
